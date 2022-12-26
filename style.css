@@ -1,0 +1,102 @@
+.bloc_cv_left{
+    background-color: black;
+    height: 100%;
+    width:  40%;
+}
+
+/*bloque gauche supérieure*/
+.bloc_cv_left_top{
+    height: 30%;
+    width:  100%;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #030202;
+    align-items: center;
+
+}
+.ma_photo{
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+    
+}
+
+
+/*bloque gauche inférieure*/
+.bloc_cv_left_bottom{
+    height: 70%;
+    width:  100%;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #fba704;
+
+}
+.img_tel{
+    position: relative;
+    top: 5px;
+}
+.img_whatsapp{
+    position: relative;
+    top: 5px;
+    height: 30px;
+    width: 30px; 
+}
+.img_mail{
+    position: relative;
+    top: 10px;
+    height: 30px;
+    width: 30px; 
+}
+.img_adresse{
+    position: relative;
+    top: 10px;
+    height: 30px;
+    width: 30px; 
+}
+li{
+   /* list-style-type: none;*/
+}
+
+.bloc_cv_right{
+    background-color: skyblue;
+    height: 100%;
+    width:  60%;
+
+}
+.bloc_cv{
+    display: flex;
+    flex-flow: row wrap;
+   /* background-color: blue;*/
+    height: 95%;
+    width:  95%;
+}
+.blocGeneral{
+    height: 100%;
+    width:  100%; 
+    display:flex;
+    justify-content: center;
+    /*background-color: red;*/
+}
+.titre{
+    width: fit-content ;
+    padding-top: 1px;
+    padding-left: 90px;
+    padding-bottom: 1px;
+    padding-right: 5px;
+    background-color: #030202;
+    color:#fba704 ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.titre1{
+    width: fit-content ;
+    padding-top: 1px;
+    padding-left: 90px;
+    padding-bottom: 1px;
+    padding-right: 5px;
+    background-color: #fba704;
+    color: #030202 ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}  
+}
